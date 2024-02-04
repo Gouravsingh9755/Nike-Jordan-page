@@ -1,0 +1,395 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: #161A23;
+    /* background-color: #013A6B; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main1{
+    height: 80%;
+    width: 80%;
+    /* background-color: #161A23; */
+    /* background-color: #013A6B; */
+  background-image: -webkit-linear-gradient(28deg, #1d232d 65%, #EC2E5E 50%);
+  border-radius: 20px;
+  display: flex;
+
+}
+
+img{
+
+    height: 70px;
+    width: 60px;
+    position: absolute;
+    left: 13%;
+    top: 10%;
+
+}
+
+.nav1{
+
+    height: 12%;
+    width: 70%;
+    /* background-color: cornflowerblue; */
+    display: flex;
+    align-items: center;
+     justify-content: center;
+
+}
+
+h5 ul{
+     list-style: none;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 20px;
+}
+h5 ul li{
+    height: 30px;
+    color: white;
+    font-size: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 10px;
+    
+
+}
+
+h5 ul li:hover{
+
+    height: 30px;
+    border-bottom: 2px solid white;
+
+}
+
+.nav2{
+
+    height: 10%;
+    width: 35%;
+    /* background-color: aquamarine; */
+    display: flex;
+    align-items: center;
+     justify-content: start;
+     
+}
+
+i{
+    color: white;
+    position: relative;
+    left: 9%;
+    font-size: 14px;
+    padding-top: 12px;
+}
+
+::placeholder{
+    color: white;
+
+}
+
+
+input{
+    width: 60%;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    margin-top: 12px;
+    background-color: transparent;
+    color: white;
+}
+
+.cart{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    /* background-color: bisque; */
+    gap: -5px;
+    /* padding-top: 10px; */
+    margin-bottom: 2.5px;
+}
+
+h6{
+
+    font-size: 18px;
+    color: white;
+    font-weight: 100;
+    padding-bottom: 10px;
+    
+
+}
+
+.secondi{
+
+    height: 30px;
+    width: 35px;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+    padding-left: 3px;
+    margin-left: 5px;
+    border: 1px solid white;
+    padding-top: 19px;
+    margin-bottom: 6px;
+
+}
+
+
+.ri-shopping-cart-2-fill{
+
+    margin-left: 4px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    /* border: 1px solid white; */
+    text-align: center;
+    
+
+}
+
+.secondi:hover{
+
+    background-color: rgba(255, 255, 255, 0.436);
+}
+
+.content{
+    height: 55%;
+    width: 80%;
+    /* background-color: lightpink; */
+    position:absolute;
+    top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end
+    
+}
+
+.bottom{
+    height: 15%;
+    width: 80%;
+    /* background-color: green; */
+    position:absolute;
+    top: 74.8%;
+    /* border: 2px solid red; */
+    display: flex;
+
+    
+}
+
+.lbottom{
+
+    height: 100%;
+    width: 60%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    gap: 20px;
+    
+
+}
+
+.h6-2{
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.h6-2:hover{
+
+    border-bottom: 2px solid white;
+}
+
+.lbottom i{
+
+    font-size: 20px;
+    width: 20px;
+    
+}
+
+.lbottom i:hover{
+
+   
+    width: 20px;
+    border-bottom: 2px solid white;
+    display: flex;
+    align-items: center;
+}
+.rbottom{
+
+    height: 100%;
+    width: 40%;
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 5px;
+
+}
+
+.playbutton{
+
+    height: 45px;
+    width: 44px;
+    padding-right: 3px;
+    border-radius: 50px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* position: relative;
+    left: 83%;
+    top: 25%; */
+}
+
+.playbutton:hover{
+
+    background-color: rgba(255, 255, 255, 0.436);
+}
+
+.ri-arrow-right-s-fill{
+    font-size: 30px;
+    padding-bottom: 12px;
+}
+
+h3{
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    top: 10%;
+    right: 12.5%;   
+    letter-spacing: 1px;
+    
+
+}
+
+h4{
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    bottom: 8%;
+ 
+    
+    
+}
+
+.ctop{
+    height: 25px;
+    width:32.5%;
+    /* background-color: violet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+
+
+.cmid{
+    height: 32%;
+    width: 53%;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+h1{
+
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+
+.cbottom{
+    height: 25%;
+    width: 53%;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13.5px;
+    font-weight: 550;
+    color: white;
+}
+
+
+.rating-star{
+    height:30px;
+    width: 40%;
+    /* background-color: violet; */
+
+}
+
+.rating-star img{
+
+    height: 60px;
+    width: 90px;
+    /* position: absolute; */
+    top: 51%;
+}
+
+.cbutton{
+
+    height: 11%;
+    width: 36%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cbuttonn{
+    height: 22px;
+    width: 90px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    border-radius: 40px;
+    background-color: #EC2E5E;
+    color: white;
+    border: none;
+}
+
+.cbuttonn:hover{
+
+    border: 2px solid white;
+}
+
+.shoe-img{
+
+    height: 370px;
+    width:550px;
+    position: absolute;
+    top: 22%;
+    left: 42%;
+    
+    transform: rotate(-25deg);
+
+
+
+}
